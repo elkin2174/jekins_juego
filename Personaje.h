@@ -26,5 +26,5 @@ class Personaje{
     virtual void morir();
 };
 #else
-  class Personaje_H;
+  class Personaje;
 #endif

@@ -1,15 +1,14 @@
 #include <iostream>
-#include "Personaje.h"
+#include "Batalla.h"
 
 using namespace std;
 int main() {
 
-  Personaje* pj1 = new Personaje(5,3,"Arquero++");
-  Personaje* pj2 = new Personaje(5,1,"Dracon++");
+  Batalla* batalla = new Batalla();
+  batalla->crearEjercito1();
+  batalla->crearEjercito2();
 
-  for( int i = 0; i < 2; i++){
-    pj1->atacar(pj2);
-  }
-  cout<<pj2->getTipo();
+  batalla->iniciarBatalla();
+
 
 }
