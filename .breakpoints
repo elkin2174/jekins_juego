@@ -1,3 +1,26 @@
 {
-  "files": {}
+  "files": {
+    "Batalla.cpp": [
+      {
+        "id": "0071e671-f3dc-4642-9222-c82de703e0a1",
+        "line": 41,
+        "version": 2494,
+        "index": 1256
+      },
+      {
+        "id": "79a3f922-1dd0-4bba-894e-7a4a84f5478f",
+        "line": 56,
+        "version": 2494,
+        "index": 1818
+      }
+    ],
+    "main.cpp": [
+      {
+        "id": "654ca1a1-c91f-4baa-8b15-abd17dcbe99a",
+        "line": 10,
+        "version": 412,
+        "index": 172
+      }
+    ]
+  }
 }

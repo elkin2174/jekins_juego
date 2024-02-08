@@ -7,8 +7,8 @@ int main() {
   Batalla* batalla = new Batalla();
   batalla->crearEjercito1();
   batalla->crearEjercito2();
-
   batalla->iniciarBatalla();
+  batalla->decidirGanador();
 
 
 }

@@ -19,6 +19,7 @@ class Batalla{
     void crearEjercito2();
     void iniciarBatalla();
     void eliminarPersonaje(vector<Personaje*>& ejercito);
+    void decidirGanador();
 
 
 

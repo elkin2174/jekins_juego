@@ -12,7 +12,7 @@ class Personaje{
   public:
     Personaje() : salud(0), danho(0){};
     Personaje(int _salud, int _danho, string _tipo) : salud(_salud), danho(_danho), tipo(_tipo){};
-    virtual ~Personaje();
+    ~Personaje(){};
     // Getters
     int getSalud();
     int getDanho();
@@ -23,7 +23,6 @@ class Personaje{
     void setTipo(string _tipo);
     
     void atacar(Personaje* pj);
-    virtual void morir();
 };
 #else
   class Personaje;

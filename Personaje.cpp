@@ -23,9 +23,6 @@ void Personaje::setTipo(string _tipo){
 void Personaje::atacar(Personaje* pj){
   pj->setSalud(pj->getSalud() - this->getDanho());  
 }
-Personaje::~Personaje(){
-  cout<< "El " + getTipo() + " a caido :c" << endl;
-}
-void Personaje::morir(){
-  delete this;
-}
+// Personaje::~Personaje(){
+  // cout<< "El " + getTipo() + " a caido :c" << endl;
+// }
